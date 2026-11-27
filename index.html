@@ -1,0 +1,1217 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>小黄人b站免费入口在线看网页版_小黄人剧集观看指南_小黄人动画短片合集</title>
+<meta name="description" content="小黄人b站免费入口在线看网页版，梳理小黄人动画短片、格鲁与小小兵系列剧集、配音版本与观看顺序，附社区评论、更新动态与常见问题解答，适合动画迷与家长挑选合适内容。">
+<meta name="keywords" content="小黄人动画短片,格鲁的崛起剧集,小小兵配音版本,动画观看顺序,黄人系列合集">
+<style>
+:root{
+  --yellow:#ffd400;
+  --yellow-deep:#f5b800;
+  --ink:#1d2430;
+  --ink-soft:#3d4757;
+  --muted:#6b7688;
+  --line:#e6e9ef;
+  --bg:#f6f8fb;
+  --panel:#ffffff;
+  --panel-alt:#fbfcfe;
+  --blue:#2f5bd7;
+  --blue-soft:#eaf0ff;
+  --violet:#5b4bd6;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 1px 2px rgba(29,36,48,.05),0 8px 24px rgba(29,36,48,.06);
+  --shadow-soft:0 1px 2px rgba(29,36,48,.04);
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --annc-h:40px;
+  --head-h:64px;
+  --gap:22px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  font-family:var(--font);
+  color:var(--ink);
+  background:var(--bg);
+  font-size:15px;
+  line-height:1.75;
+}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;letter-spacing:.01em}
+p{margin:0 0 12px}
+ul,ol{margin:0 0 12px;padding-left:20px}
+li{margin:0 0 6px}
+img{display:block;max-width:100%;height:auto}
+button{font-family:inherit;font-size:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px;border-radius:4px}
+[id]{scroll-margin-top:calc(var(--annc-h) + var(--head-h) + 14px)}
+
+/* ---------- 公告条 ---------- */
+.announce{
+  position:sticky;top:0;z-index:60;
+  background:linear-gradient(90deg,#1d2430,#2b3648 55%,#3a2f13);
+  color:#fff;
+  height:var(--annc-h);
+  display:flex;align-items:center;
+}
+.announce-inner{
+  width:100%;max-width:1360px;margin:0 auto;padding:0 20px;
+  display:flex;align-items:center;gap:12px;
+  font-size:13px;white-space:nowrap;overflow:hidden;
+}
+.announce-tag{
+  flex:none;background:var(--yellow);color:#241c00;
+  font-weight:700;font-size:12px;padding:2px 9px;border-radius:20px;
+  letter-spacing:.04em;
+}
+.announce-txt{overflow:hidden;text-overflow:ellipsis;color:#f2f4f8}
+.announce-txt b{color:var(--yellow);font-weight:700}
+.announce-more{flex:none;margin-left:auto;color:#c9d3e6;font-size:12px}
+
+/* ---------- 页头 ---------- */
+.site-head{
+  position:sticky;top:var(--annc-h);z-index:55;
+  background:rgba(255,255,255,.96);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:1360px;margin:0 auto;padding:0 20px;
+  height:var(--head-h);
+  display:flex;align-items:center;gap:18px;
+}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand-mark{width:38px;height:38px;flex:none}
+.brand-name{
+  font-size:19px;font-weight:800;letter-spacing:.02em;color:var(--ink);
+  line-height:1.1;
+}
+.brand-sub{display:block;font-size:10.5px;font-weight:600;color:var(--muted);letter-spacing:.16em}
+.nav{display:flex;align-items:center;gap:2px;flex-wrap:wrap;min-width:0}
+.nav a{
+  color:var(--ink-soft);font-size:14px;font-weight:600;
+  padding:7px 11px;border-radius:8px;white-space:nowrap;
+}
+.nav a:hover{background:var(--blue-soft);color:var(--blue);text-decoration:none}
+.head-tools{margin-left:auto;display:flex;align-items:center;gap:10px;flex:none}
+.search{
+  display:flex;align-items:center;background:var(--bg);
+  border:1px solid var(--line);border-radius:20px;padding:3px 4px 3px 12px;
+}
+.search input{
+  border:0;background:transparent;outline:none;font-size:13.5px;
+  width:150px;color:var(--ink);padding:4px 0;
+}
+.search input::placeholder{color:#9aa4b5}
+.search button{
+  border:0;background:var(--yellow);color:#2a2200;font-weight:700;
+  font-size:12.5px;padding:5px 12px;border-radius:16px;
+}
+.head-cta{
+  background:var(--ink);color:#fff;font-size:13px;font-weight:700;
+  padding:8px 15px;border-radius:20px;white-space:nowrap;border:0;
+}
+.head-cta:hover{text-decoration:none;background:#000}
+
+/* ---------- 首屏 ---------- */
+.hero{
+  background:
+    radial-gradient(900px 320px at 88% -60px, rgba(255,212,0,.55), transparent 70%),
+    radial-gradient(700px 300px at 6% 0, rgba(47,91,215,.14), transparent 70%),
+    linear-gradient(180deg,#fffdf3,#f6f8fb 78%);
+  border-bottom:1px solid var(--line);
+}
+.hero-inner{
+  max-width:1360px;margin:0 auto;padding:38px 20px 34px;
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+  gap:40px;align-items:center;
+}
+.hero-kicker{
+  display:inline-flex;align-items:center;gap:8px;
+  background:#fff;border:1px solid var(--yellow-deep);
+  color:#6b5000;font-size:12.5px;font-weight:700;
+  padding:4px 12px;border-radius:20px;margin-bottom:16px;
+}
+.hero-kicker i{width:7px;height:7px;border-radius:50%;background:var(--yellow-deep);display:block}
+.hero h1{
+  font-size:clamp(28px,3.4vw,42px);
+  letter-spacing:.01em;color:var(--ink);
+  margin-bottom:14px;
+}
+.hero h1 em{font-style:normal;background:linear-gradient(180deg,transparent 66%,var(--yellow) 66%,var(--yellow) 92%,transparent 92%)}
+.hero-desc{font-size:15.5px;color:var(--ink-soft);max-width:600px;margin-bottom:20px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.btn-primary{
+  background:var(--yellow);color:#241c00;font-weight:800;font-size:14.5px;
+  padding:11px 22px;border-radius:10px;border:1px solid var(--yellow-deep);
+  box-shadow:0 3px 0 #d9a800;
+}
+.btn-primary:hover{text-decoration:none;background:#ffe14d}
+.btn-ghost{
+  background:#fff;color:var(--ink);font-weight:700;font-size:14.5px;
+  padding:11px 20px;border-radius:10px;border:1px solid var(--line);
+}
+.btn-ghost:hover{text-decoration:none;border-color:#c9d1df}
+.hero-stats{
+  display:flex;flex-wrap:wrap;gap:0;border-top:1px dashed #d8dde7;padding-top:16px;
+}
+.hero-stats div{padding-right:26px;margin-right:26px;border-right:1px solid #e2e7f0}
+.hero-stats div:last-child{border-right:0;margin-right:0;padding-right:0}
+.hero-stats b{display:block;font-size:21px;line-height:1.2;color:var(--ink)}
+.hero-stats span{font-size:12px;color:var(--muted);letter-spacing:.04em}
+.hero-art{position:relative}
+.hero-art svg{width:100%;height:auto;display:block;filter:drop-shadow(0 14px 30px rgba(29,36,48,.13))}
+.hero-art .art-cap{
+  position:absolute;left:0;bottom:-6px;background:#fff;border:1px solid var(--line);
+  border-radius:10px;padding:7px 13px;font-size:12px;color:var(--muted);
+  box-shadow:var(--shadow-soft);
+}
+
+/* ---------- 布局 ---------- */
+.layout{
+  max-width:1360px;margin:0 auto;padding:30px 20px 10px;
+  display:grid;grid-template-columns:180px minmax(0,1fr) 268px;
+  gap:var(--gap);align-items:start;
+}
+.col-left{position:sticky;top:calc(var(--annc-h) + var(--head-h) + 16px)}
+.col-right{position:sticky;top:calc(var(--annc-h) + var(--head-h) + 16px)}
+.panel{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow-soft);
+}
+.side-title{
+  font-size:12px;font-weight:800;letter-spacing:.14em;color:var(--muted);
+  padding:14px 16px 8px;
+}
+.chan-list{list-style:none;margin:0;padding:0 8px 12px}
+.chan-list li{margin:0}
+.chan-list a{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  padding:8px 10px;border-radius:8px;color:var(--ink-soft);
+  font-size:13.5px;font-weight:600;
+}
+.chan-list a:hover{background:var(--blue-soft);color:var(--blue);text-decoration:none}
+.chan-list a small{font-size:11px;color:#9aa4b5;font-weight:600}
+.chan-list a.on{background:#fff7d6;color:#7a5c00}
+.chan-list a.on small{color:#a48800}
+.side-note{
+  margin:0 12px 14px;padding:10px 12px;background:var(--panel-alt);
+  border:1px dashed #dbe1ec;border-radius:10px;font-size:12.5px;color:var(--muted);line-height:1.65;
+}
+
+/* ---------- 通用板块 ---------- */
+.section{margin-bottom:30px}
+.sec-head{
+  display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap;
+  margin-bottom:14px;padding-bottom:10px;border-bottom:2px solid var(--line);
+}
+.sec-head h2{font-size:20px;letter-spacing:.01em}
+.sec-head .sec-desc{font-size:13px;color:var(--muted);margin-left:auto;text-align:right}
+.sec-no{
+  display:inline-block;background:var(--ink);color:var(--yellow);
+  font-size:11.5px;font-weight:800;padding:2px 8px;border-radius:6px;
+  letter-spacing:.08em;vertical-align:2px;margin-right:8px;
+}
+
+/* 概览 */
+.overview{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:24px 26px;box-shadow:var(--shadow-soft);
+}
+.overview p{font-size:14.5px;color:var(--ink-soft);line-height:1.85}
+.overview p:last-child{margin-bottom:0}
+.overview strong{color:var(--ink)}
+.tagline-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tag{
+  display:inline-block;background:var(--bg);border:1px solid var(--line);
+  color:var(--ink-soft);font-size:12.5px;padding:3px 10px;border-radius:20px;font-weight:600;
+}
+.tag.y{border-color:#f0d780;background:#fffaE0;color:#7a5c00}
+
+/* 精选卡片 */
+.card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow-soft);
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.card-thumb{position:relative;background:#eef1f7}
+.card-thumb img{width:100%;height:150px;object-fit:cover}
+.card-badge{
+  position:absolute;top:9px;left:9px;background:rgba(29,36,48,.86);color:#fff;
+  font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;letter-spacing:.04em;
+}
+.card-body{padding:13px 14px 14px;display:flex;flex-direction:column;flex:1}
+.card-body h3{font-size:15px;margin-bottom:6px;color:var(--ink)}
+.card-body .card-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px}
+.card-body .card-tags span{
+  font-size:11px;color:var(--blue);background:var(--blue-soft);
+  padding:1px 7px;border-radius:5px;font-weight:600;
+}
+.card-body p{font-size:13px;color:var(--muted);line-height:1.7;margin:0 0 10px}
+.card-meta{
+  margin-top:auto;display:flex;align-items:center;gap:10px;
+  font-size:11.5px;color:#8b95a6;border-top:1px solid var(--line);padding-top:9px;
+}
+.card-meta b{color:var(--yellow-deep);font-size:12.5px}
+
+/* 更新列表 */
+.update-list{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow-soft);overflow:hidden;
+}
+.update-item{
+  display:flex;align-items:flex-start;gap:14px;padding:12px 18px;
+  border-bottom:1px solid var(--line);
+}
+.update-item:last-child{border-bottom:0}
+.update-item:nth-child(odd){background:var(--panel-alt)}
+.up-time{flex:none;width:92px;font-size:12px;color:var(--muted);font-weight:600;padding-top:2px}
+.up-dot{
+  flex:none;width:8px;height:8px;border-radius:50%;background:var(--yellow-deep);
+  margin-top:9px;
+}
+.up-main{min-width:0}
+.up-main b{font-size:14px;color:var(--ink);margin-right:6px}
+.up-main span{font-size:13px;color:var(--ink-soft)}
+
+/* 分类入口 */
+.cat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.cat{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:14px 14px 13px;display:block;color:var(--ink);
+  transition:border-color .15s ease,background .15s ease;
+}
+.cat:hover{text-decoration:none;border-color:var(--yellow-deep);background:#fffdf2}
+.cat b{display:block;font-size:14.5px;margin-bottom:4px}
+.cat span{font-size:12px;color:var(--muted);line-height:1.6;display:block}
+.cat .cat-n{font-size:11px;color:var(--blue);font-weight:700;letter-spacing:.06em}
+
+/* 深度解析正文 */
+.article{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 30px;box-shadow:var(--shadow-soft);
+}
+.article h3{
+  font-size:17px;margin:24px 0 10px;padding-left:11px;
+  border-left:4px solid var(--yellow);line-height:1.4;
+}
+.article h3:first-child{margin-top:0}
+.article p{font-size:14.5px;color:var(--ink-soft);line-height:1.88}
+.article ul,.article ol{font-size:14.5px;color:var(--ink-soft);line-height:1.85}
+.article li b{color:var(--ink)}
+.callout{
+  background:#fffdf2;border:1px solid #f0d780;border-left:4px solid var(--yellow-deep);
+  border-radius:8px;padding:13px 16px;margin:14px 0;font-size:13.5px;color:#6b5000;line-height:1.8;
+}
+.compare{
+  display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);
+  border-radius:10px;overflow:hidden;margin:14px 0;font-size:13.5px;
+}
+.compare>div{padding:13px 15px}
+.compare>div:first-child{background:var(--panel-alt);border-right:1px solid var(--line)}
+.compare h4{font-size:13.5px;margin-bottom:7px;color:var(--ink)}
+.compare ul{margin:0;padding-left:17px;font-size:13px;color:var(--ink-soft)}
+.compare li{margin-bottom:4px}
+
+/* 体验指南 步骤 */
+.steps{counter-reset:step;display:grid;gap:12px}
+.step{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:15px 18px 15px 60px;position:relative;box-shadow:var(--shadow-soft);
+}
+.step::before{
+  counter-increment:step;content:counter(step,decimal-leading-zero);
+  position:absolute;left:16px;top:15px;
+  width:30px;height:30px;border-radius:9px;background:var(--yellow);
+  color:#241c00;font-weight:800;font-size:13px;
+  display:flex;align-items:center;justify-content:center;
+}
+.step b{display:block;font-size:14.5px;margin-bottom:4px}
+.step p{font-size:13px;color:var(--muted);line-height:1.75;margin:0}
+
+/* FAQ */
+.faq{display:grid;gap:9px}
+details{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-sm);
+  box-shadow:var(--shadow-soft);overflow:hidden;
+}
+details[open]{border-color:#f0d780}
+summary{
+  cursor:pointer;list-style:none;padding:13px 44px 13px 17px;position:relative;
+  font-size:14.5px;font-weight:700;color:var(--ink);
+}
+summary::-webkit-details-marker{display:none}
+summary::after{
+  content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);
+  font-size:19px;font-weight:700;color:var(--yellow-deep);line-height:1;
+}
+details[open] summary::after{content:"–"}
+details .faq-body{padding:0 17px 15px;font-size:13.5px;color:var(--ink-soft);line-height:1.82}
+details .faq-body p:last-child{margin-bottom:0}
+
+/* 评论 */
+.cmt-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.cmt{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:13px 15px;box-shadow:var(--shadow-soft);
+}
+.cmt-head{display:flex;align-items:center;gap:9px;margin-bottom:7px}
+.avatar{
+  width:28px;height:28px;border-radius:50%;flex:none;
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:800;color:#2a2200;background:var(--yellow);
+}
+.avatar.v2{background:#cfe0ff;color:#1c3f96}
+.avatar.v3{background:#e3d9ff;color:#453089}
+.avatar.v4{background:#ffe0d0;color:#8a3d12}
+.avatar.v5{background:#d4f1e3;color:#0f5b3e}
+.cmt-head b{font-size:13px;color:var(--ink)}
+.cmt-head time{font-size:11px;color:#9aa4b5;margin-left:auto}
+.cmt p{font-size:13px;color:var(--ink-soft);line-height:1.78;margin:0}
+
+/* 资讯 */
+.news-list{display:grid;gap:12px}
+.news{
+  display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:12px;box-shadow:var(--shadow-soft);align-items:center;
+}
+.news img{width:150px;height:98px;object-fit:cover;border-radius:8px}
+.news h3{font-size:14.5px;margin-bottom:5px}
+.news p{font-size:12.5px;color:var(--muted);line-height:1.7;margin:0 0 6px}
+.news time{font-size:11.5px;color:#9aa4b5;font-weight:600}
+
+/* 相关推荐 标签索引 */
+.reco-wrap{display:flex;flex-wrap:wrap;gap:9px}
+.reco{
+  display:inline-flex;align-items:center;gap:7px;
+  background:var(--panel);border:1px solid var(--line);border-radius:24px;
+  padding:7px 14px;font-size:13px;font-weight:600;color:var(--ink-soft);
+  box-shadow:var(--shadow-soft);
+}
+.reco:hover{border-color:var(--yellow-deep);color:#7a5c00;text-decoration:none;background:#fffdf2}
+.reco i{font-style:normal;font-size:11px;color:#9aa4b5;font-weight:600}
+
+/* 榜单 */
+.rank{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-soft);overflow:hidden}
+.rank-row{
+  display:flex;align-items:center;gap:13px;padding:11px 17px;border-bottom:1px solid var(--line);
+}
+.rank-row:last-child{border-bottom:0}
+.rank-no{
+  flex:none;width:24px;height:24px;border-radius:7px;background:var(--bg);
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:800;color:var(--muted);
+}
+.rank-row:nth-child(-n+3) .rank-no{background:var(--yellow);color:#241c00}
+.rank-row b{font-size:14px;color:var(--ink)}
+.rank-row .rk-meta{font-size:11.5px;color:#9aa4b5;margin-left:auto;text-align:right;flex:none}
+.rank-row .rk-meta em{font-style:normal;color:var(--yellow-deep);font-weight:800;display:block;font-size:12.5px}
+
+/* 侧栏右 */
+.side-card{padding:0 0 10px;margin-bottom:16px}
+.side-card .side-title{border-bottom:1px solid var(--line);padding-bottom:10px}
+.hot-list{list-style:none;margin:0;padding:6px 10px 0}
+.hot-list li{margin:0}
+.hot-list a{
+  display:flex;gap:9px;padding:8px 7px;border-radius:8px;color:var(--ink-soft);
+  font-size:13px;line-height:1.55;font-weight:600;
+}
+.hot-list a:hover{background:var(--bg);text-decoration:none;color:var(--blue)}
+.hot-list .hn{flex:none;color:var(--yellow-deep);font-weight:800;font-size:12px;width:14px}
+.timeline{list-style:none;margin:0;padding:6px 16px 4px;position:relative}
+.timeline::before{content:"";position:absolute;left:22px;top:14px;bottom:12px;width:2px;background:var(--line)}
+.timeline li{position:relative;padding:0 0 13px 20px;font-size:12.5px;color:var(--ink-soft);line-height:1.65}
+.timeline li::before{
+  content:"";position:absolute;left:-1px;top:6px;width:8px;height:8px;border-radius:50%;
+  background:var(--yellow-deep);border:2px solid #fff;box-shadow:0 0 0 1px var(--yellow-deep);
+}
+.timeline b{display:block;color:var(--ink);font-size:12.8px}
+.timeline time{font-size:11px;color:#9aa4b5;font-weight:600}
+
+/* 页尾 */
+.site-foot{background:#171d27;color:#c3ccdb;margin-top:16px}
+.foot-inner{max-width:1360px;margin:0 auto;padding:38px 20px 22px}
+.foot-top{
+  display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));
+  gap:30px;padding-bottom:26px;border-bottom:1px solid #2a3242;
+}
+.foot-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.foot-brand svg{flex:none}
+.foot-brand b{color:#fff;font-size:17px;font-weight:800}
+.foot-desc{font-size:13px;line-height:1.8;color:#98a3b6;max-width:380px;margin:0}
+.foot-col h4{font-size:13px;color:#fff;margin-bottom:11px;letter-spacing:.06em}
+.foot-col ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.foot-col a{color:#98a3b6;font-size:13px}
+.foot-col a:hover{color:var(--yellow);text-decoration:none}
+.foot-bottom{
+  padding-top:16px;display:flex;flex-wrap:wrap;gap:10px 22px;
+  font-size:12px;color:#7b879b;line-height:1.8;
+}
+.foot-bottom b{color:#98a3b6;font-weight:600}
+
+/* 搜索无结果 */
+.no-result{
+  display:none;background:#fffdf2;border:1px dashed #e0c775;border-radius:10px;
+  padding:14px 18px;font-size:13.5px;color:#7a5c00;margin-bottom:14px;
+}
+.no-result.show{display:block}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1180px){
+  .layout{grid-template-columns:minmax(0,1fr) 268px}
+  .col-left{position:static;grid-column:1 / -1;order:0}
+  .col-left .panel{padding-bottom:6px}
+  .chan-list{display:flex;flex-wrap:wrap;gap:4px;padding:0 10px 12px}
+  .chan-list a{padding:6px 11px;background:var(--bg);font-size:13px}
+  .chan-list a small{display:none}
+  .side-note{display:none}
+  .side-title{padding:12px 16px 6px}
+  .card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cat-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media (max-width:1024px){
+  .hero-inner{grid-template-columns:minmax(0,1fr);gap:26px}
+  .hero-art{max-width:520px}
+  .layout{grid-template-columns:minmax(0,1fr)}
+  .col-right{position:static}
+  .head-inner{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:10px;gap:10px}
+  .nav{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px}
+  .head-tools{margin-left:auto}
+  .search input{width:118px}
+  .foot-top{grid-template-columns:1fr 1fr}
+}
+@media (max-width:740px){
+  :root{--annc-h:38px;--head-h:auto}
+  .announce-more{display:none}
+  .announce-inner{font-size:12px}
+  .hero-inner{padding:26px 16px 26px}
+  .layout{padding:20px 14px 6px}
+  .card-grid{grid-template-columns:1fr}
+  .cat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cmt-grid{grid-template-columns:1fr}
+  .news{grid-template-columns:110px minmax(0,1fr);gap:12px}
+  .news img{width:110px;height:80px}
+  .article{padding:20px 17px}
+  .overview{padding:19px 17px}
+  .hero-stats div{padding-right:16px;margin-right:16px}
+  .search{display:none}
+  .foot-top{grid-template-columns:1fr;gap:22px}
+  .update-item{gap:9px;padding:11px 14px}
+  .up-time{width:76px;font-size:11.5px}
+  .compare{grid-template-columns:1fr}
+  .compare>div:first-child{border-right:0;border-bottom:1px solid var(--line)}
+}
+@media (max-width:380px){
+  .brand-name{font-size:16px}
+  .cat-grid{grid-template-columns:1fr}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="announce" role="region" aria-label="站内更新公告">
+  <div class="announce-inner">
+    <span class="announce-tag">更新</span>
+    <span class="announce-txt">11 月 24 日新增 <b>《小小兵：月球任务》中配版</b>、<b>格鲁少年篇第 2 季第 6 集</b>，短片合集补齐 12 支；本周共更新 <b>19 条</b>条目。</span>
+    <a class="announce-more" href="#updates">查看更新 →</a>
+  </div>
+</div>
+
+<!-- 页头 -->
+<header class="site-head">
+  <div class="head-inner">
+    <a class="brand" href="/#top" aria-label="小黄人b站免费入口在线看网页版 首页">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="小黄人品牌标志：黄色胶囊造型护目镜图形">
+        <rect x="6" y="3" width="28" height="34" rx="14" fill="#ffd400" stroke="#1d2430" stroke-width="2"/>
+        <circle cx="20" cy="17" r="8.4" fill="#fff" stroke="#1d2430" stroke-width="2"/>
+        <circle cx="20" cy="17" r="4.2" fill="#3d4757"/>
+        <circle cx="21.6" cy="15.4" r="1.4" fill="#fff"/>
+        <path d="M12 28.5c2.6 2.2 13.4 2.2 16 0" stroke="#1d2430" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M16 9.5h8" stroke="#1d2430" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-name">小黄人b站免费入口在线看网页版
+        <span class="brand-sub">MINIONS · 动画剧集索引</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="主题导航">
+      <a href="#overview">领域概览</a>
+      <a href="#picks">精选短片</a>
+      <a href="#updates">更新动态</a>
+      <a href="#cats">分类入口</a>
+      <a href="#deep">深度解析</a>
+      <a href="#guide">观看路径</a>
+      <a href="#faq">常见问题</a>
+      <a href="#comments">社区评论</a>
+    </nav>
+    <div class="head-tools">
+      <form class="search" role="search" id="searchForm" onsubmit="return false;">
+        <label for="q" style="position:absolute;left:-9999px">站内查找条目</label>
+        <input id="q" type="search" placeholder="查找条目 / 类型" autocomplete="off">
+        <button type="button" id="searchBtn">查找</button>
+      </form>
+      <a class="head-cta" href="#picks">看本周片单</a>
+    </div>
+  </div>
+</header>
+
+<!-- 首屏 -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div>
+      <span class="hero-kicker"><i></i>动画剧集索引 · 2026 年 11 月版</span>
+      <h1>小黄人b站免费入口在线看网页版</h1>
+      <p class="hero-desc">围绕小黄人系列的长短片、剧场版与衍生剧集，整理可检索的条目清单：哪一支短片是格鲁登场前的独立故事、哪一版配音适合低龄观众、剧场版与剧集的时间线如何衔接。每一条都标注时长、语言版本与适配年龄段，方便你按顺序挑着看。</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#picks">浏览 9 条精选条目</a>
+        <a class="btn-ghost" href="#guide">先看观看顺序</a>
+      </div>
+      <div class="hero-stats">
+        <div><b>128</b><span>收录条目</span></div>
+        <div><b>19</b><span>本周更新</span></div>
+        <div><b>6</b><span>语言版本</span></div>
+        <div><b>4.7</b><span>社区均分</span></div>
+      </div>
+    </div>
+    <div class="hero-art">
+      <svg viewBox="0 0 460 300" role="img" aria-label="三位黄色小黄人角色并排站立的原创插画">
+        <defs>
+          <linearGradient id="bgG" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#fff8d8"/>
+            <stop offset="1" stop-color="#ffe98a"/>
+          </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="460" height="300" rx="20" fill="url(#bgG)"/>
+        <circle cx="382" cy="54" r="34" fill="#fff" opacity=".55"/>
+        <circle cx="70" cy="248" r="46" fill="#fff" opacity=".4"/>
+        <!-- 左 -->
+        <g>
+          <rect x="58" y="92" width="86" height="150" rx="43" fill="#ffd400" stroke="#1d2430" stroke-width="4"/>
+          <circle cx="101" cy="150" r="26" fill="#fff" stroke="#1d2430" stroke-width="4"/>
+          <circle cx="101" cy="150" r="11" fill="#3d4757"/>
+          <circle cx="106" cy="145" r="4" fill="#fff"/>
+          <path d="M86 196c6 6 24 6 30 0" stroke="#1d2430" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M76 108h50" stroke="#1d2430" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <!-- 中 -->
+        <g>
+          <rect x="178" y="60" width="104" height="182" rx="52" fill="#ffe14d" stroke="#1d2430" stroke-width="4"/>
+          <circle cx="204" cy="128" r="24" fill="#fff" stroke="#1d2430" stroke-width="4"/>
+          <circle cx="256" cy="128" r="24" fill="#fff" stroke="#1d2430" stroke-width="4"/>
+          <circle cx="204" cy="128" r="9" fill="#3d4757"/>
+          <circle cx="256" cy="128" r="9" fill="#3d4757"/>
+          <circle cx="207" cy="124" r="3" fill="#fff"/>
+          <circle cx="259" cy="124" r="3" fill="#fff"/>
+          <path d="M208 180c8 9 36 9 44 0" stroke="#1d2430" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M198 84h30M250 84h14" stroke="#1d2430" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <!-- 右 -->
+        <g>
+          <rect x="316" y="100" width="86" height="142" rx="43" fill="#ffd400" stroke="#1d2430" stroke-width="4"/>
+          <circle cx="359" cy="156" r="25" fill="#fff" stroke="#1d2430" stroke-width="4"/>
+          <circle cx="359" cy="156" r="10" fill="#3d4757"/>
+          <circle cx="363" cy="151" r="3.6" fill="#fff"/>
+          <path d="M345 200c5 6 23 6 28 0" stroke="#1d2430" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M334 116h50" stroke="#1d2430" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <rect x="150" y="252" width="160" height="12" rx="6" fill="#e8c400" opacity=".55"/>
+      </svg>
+      <span class="art-cap">剧场版 · 短片合集 · 衍生剧集 三类入口</span>
+    </div>
+  </div>
+</section>
+
+<!-- 主体布局：三栏门户 -->
+<div class="layout">
+
+  <!-- 左频道索引 -->
+  <aside class="col-left">
+    <div class="panel">
+      <p class="side-title">频道索引</p>
+      <ul class="chan-list">
+        <li><a class="on" href="#picks">剧场版长片 <small>7</small></a></li>
+        <li><a href="#picks">独立短片合集 <small>12</small></a></li>
+        <li><a href="#picks">格鲁少年篇剧集 <small>18</small></a></li>
+        <li><a href="#cats">中配与英配对照 <small>6</small></a></li>
+        <li><a href="#cats">格鲁反派起源线 <small>9</small></a></li>
+        <li><a href="#cats">亲子适龄筛选 <small>24</small></a></li>
+        <li><a href="#cats">幕后配音访谈 <small>11</small></a></li>
+        <li><a href="#cats">节日特辑短片 <small>8</small></a></li>
+        <li><a href="#deep">时间线对照表 <small>—</small></a></li>
+        <li><a href="#rank">社区热度榜 <small>Top10</small></a></li>
+      </ul>
+      <p class="side-note">本页索引按“可独立观看”与“需按顺序”两类标注，挑选时先看左侧标签再进条目。</p>
+    </div>
+  </aside>
+
+  <!-- 中主内容 -->
+  <main>
+
+    <!-- 1 领域概览 -->
+    <section class="section" id="overview">
+      <div class="sec-head">
+        <h2><span class="sec-no">01</span>小黄人系列内容全景</h2>
+        <span class="sec-desc">长片 · 短片 · 剧集 · 配音版本 四条主线</span>
+      </div>
+      <div class="overview">
+        <p>小黄人系列在中文语境里通常被当作一个整体，但拆开看至少有四条内容主线：<strong>剧场版长片</strong>（《神偷奶爸》系列与独立剧场版）、<strong>独立短片合集</strong>（以小小兵为主角、5—15 分钟一支的短故事）、<strong>衍生剧集</strong>（格鲁少年时期的成长线，单集 22 分钟）、以及<strong>配音版本与幕后内容</strong>（中配、英配、导演访谈与配乐特辑）。这四条线的节奏差别很大：短片适合碎片时间，剧集适合按季追，长片则更看整体叙事完成度。</p>
+        <p>从内容性质看，独立短片是最容易被低估的一块。它们大多不承担主线推进任务，而是用夸张的肢体喜剧完成一个完整笑点闭环，比如月球任务、冰淇淋摊、宠物争夺这类设定，8 分钟内起承转合完整，对不熟悉系列的观众也几乎零门槛。剧场版长片则需要至少了解格鲁与三个女儿的关系框架，否则情感段落会显得突兀。衍生剧集介于两者之间，主线是少年格鲁的成长与反派启蒙，单集之间有关联，跳集观看会丢失部分动机铺垫。</p>
+        <p>配音版本是中文观众最常纠结的一点。中配版在低龄段更友好，台词本地化程度高，但部分双关语会被替换成谐音梗；英配版保留了原版配音演员的语气节奏，适合已经能读字幕的观众。2026 年下半年，多部短片补入了中配音轨，使中配条的完整度明显提升。近 30 天内社区讨论焦点集中在《小小兵：月球任务》的中配表现、格鲁少年篇第 2 季第 6 集的转折，以及节日特辑短片的排播顺序，这些都在下方的更新列表与深度解析里逐条展开。</p>
+        <div class="tagline-row">
+          <span class="tag y">剧场版 7 部</span>
+          <span class="tag">独立短片 12 支</span>
+          <span class="tag">衍生剧集 2 季</span>
+          <span class="tag">中配音轨 6 条</span>
+          <span class="tag">节日特辑 8 支</span>
+          <span class="tag y">适龄分级标注</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 精选推荐 -->
+    <section class="section" id="picks">
+      <div class="sec-head">
+        <h2><span class="sec-no">02</span>精选条目：9 部值得先看的片子</h2>
+        <span class="sec-desc">按可独立观看程度排序</span>
+      </div>
+      <div class="no-result" id="noResult">没有找到匹配的条目，试试“月球”“格鲁”“中配”“短片”这些词。</div>
+      <div class="card-grid" id="pickGrid">
+
+        <article class="card" data-keys="小小兵 月球任务 短片 中配 独立故事">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/minions-moon47/400/300" width="400" height="300" loading="lazy" alt="小小兵月球任务短片封面，黄色角色站在月球表面">
+            <span class="card-badge">短片 · 中配已上</span>
+          </div>
+          <div class="card-body">
+            <h3>小小兵：月球任务</h3>
+            <div class="card-tags"><span>独立短片</span><span>8 分钟</span><span>中配</span></div>
+            <p>三个小小兵为抢一块月亮形状的饼干，把整间实验室改装成发射台。全片几乎没有对白，靠音效与肢体动作推进，适合作为入门第一支。</p>
+            <div class="card-meta"><b>9.1</b><span>热度 18.6 万</span><span>11-24 更新中配</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-keys="格鲁的崛起 少年篇 剧集 反派起源">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/gru-rise11/400/300" width="400" height="300" loading="lazy" alt="格鲁少年篇剧集封面，少年格鲁站在郊区街道">
+            <span class="card-badge">剧集 · 第 2 季</span>
+          </div>
+          <div class="card-body">
+            <h3>格鲁少年篇 第 2 季</h3>
+            <div class="card-tags"><span>衍生剧集</span><span>单集 22 分钟</span><span>需按序</span></div>
+            <p>讲 11 岁的格鲁如何在社区里试错第一套“反派计划”。第 2 季把重心放在他与邻居小孩的竞争关系上，第 6 集有一次明确的立场转折。</p>
+            <div class="card-meta"><b>8.7</b><span>热度 14.2 万</span><span>11-25 第 6 集</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-keys="神偷奶爸 剧场版 长片 三个女儿">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/dm-first08/400/300" width="400" height="300" loading="lazy" alt="神偷奶爸剧场版封面，格鲁与小黄人站在屋顶">
+            <span class="card-badge">剧场版 · 系列起点</span>
+          </div>
+          <div class="card-body">
+            <h3>神偷奶爸（首部剧场版）</h3>
+            <div class="card-tags"><span>剧场版长片</span><span>95 分钟</span><span>英配首选</span></div>
+            <p>系列的原点，也是理解格鲁与三个女儿关系的基础。小小兵在本作中戏份不算多，但月亮偷窃计划这条线奠定了后续所有剧场版的叙事模板。</p>
+            <div class="card-meta"><b>9.0</b><span>热度 22.4 万</span><span>常驻条目</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-keys="冰淇淋摊 短片 夏日 无对白">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/icecream-mini23/400/300" width="400" height="300" loading="lazy" alt="冰淇淋摊短片封面，小黄人围在冷饮车旁">
+            <span class="card-badge">短片 · 6 分钟</span>
+          </div>
+          <div class="card-body">
+            <h3>小小兵与冰淇淋摊</h3>
+            <div class="card-tags"><span>独立短片</span><span>无对白</span><span>低龄友好</span></div>
+            <p>排队买冰淇淋演变成一场集体闹剧，是系列里笑点密度最高的一支短片。无对白设计使其不受语言版本影响，适合给刚开始接触动画的孩子看。</p>
+            <div class="card-meta"><b>8.9</b><span>热度 11.8 万</span><span>中英配均可</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-keys="节日特辑 圣诞 短片 节日">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/minions-xmas31/400/300" width="400" height="300" loading="lazy" alt="节日特辑短片封面，小黄人装饰圣诞树">
+            <span class="card-badge">节日特辑 · 11 分钟</span>
+          </div>
+          <div class="card-body">
+            <h3>小小兵圣诞装饰事故</h3>
+            <div class="card-tags"><span>节日特辑</span><span>11 分钟</span><span>中配</span></div>
+            <p>装饰圣诞树的任务被彻底搞砸，彩灯、姜饼与礼物盒依次失控。节日题材但笑点不依赖节日知识，平日观看同样成立。</p>
+            <div class="card-meta"><b>8.4</b><span>热度 7.9 万</span><span>11-20 补中配</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-keys="格鲁反派起源 剧场版 少年 成长线">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/gru-origin52/400/300" width="400" height="300" loading="lazy" alt="格鲁反派起源剧场版封面，少年格鲁与发明装置">
+            <span class="card-badge">剧场版 · 前传</span>
+          </div>
+          <div class="card-body">
+            <h3>格鲁的崛起（前传长片）</h3>
+            <div class="card-tags"><span>剧场版长片</span><span>87 分钟</span><span>建议先看</span></div>
+            <p>把时间拨回格鲁的少年时期，解释他为何执着于“成为最伟大的反派”。看完这部再回看少年篇剧集，会发现剧集补足了长片里一笔带过的邻里关系。</p>
+            <div class="card-meta"><b>8.6</b><span>热度 16.1 万</span><span>常驻条目</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-keys="宠物 争夺 短片 无对白 家庭">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/minions-pet19/400/300" width="400" height="300" loading="lazy" alt="宠物争夺短片封面，小黄人抱着小狗">
+            <span class="card-badge">短片 · 5 分钟</span>
+          </div>
+          <div class="card-body">
+            <h3>小小兵与宠物争夺战</h3>
+            <div class="card-tags"><span>独立短片</span><span>5 分钟</span><span>无对白</span></div>
+            <p>为一只流浪小狗的归属权吵到不可开交，最终用一场比赛解决。全片只有拟声词，是系列短片里最短也最讨巧的一支。</p>
+            <div class="card-meta"><b>8.8</b><span>热度 9.3 万</span><span>中英配均可</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-keys="配音 幕后 访谈 英配 演员">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/voice-interview64/400/300" width="400" height="300" loading="lazy" alt="配音幕后访谈封面，录音棚内的麦克风">
+            <span class="card-badge">幕后 · 访谈</span>
+          </div>
+          <div class="card-body">
+            <h3>配音棚里的小小兵：幕后访谈</h3>
+            <div class="card-tags"><span>幕后内容</span><span>24 分钟</span><span>中文字幕</span></div>
+            <p>讲小小兵那种介于语言与噪音之间的发音是怎么被设计出来的，包含配音演员现场示范与后期处理流程。对声音设计感兴趣的观众收获最大。</p>
+            <div class="card-meta"><b>8.2</b><span>热度 5.4 万</span><span>11-18 上线</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-keys="月球 饼干 短片 番外 实验室">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/moon-cookie72/400/300" width="400" height="300" loading="lazy" alt="月球饼干番外短片封面，饼干与太空头盔">
+            <span class="card-badge">番外 · 7 分钟</span>
+          </div>
+          <div class="card-body">
+            <h3>月亮饼干争夺番外篇</h3>
+            <div class="card-tags"><span>独立短片</span><span>7 分钟</span><span>彩蛋多</span></div>
+            <p>由月球任务短片延伸出的番外，补完了实验室其他小小兵的视角。画面里埋了大量前作物件彩蛋，熟悉系列的观众能认出至少七处。</p>
+            <div class="card-meta"><b>8.5</b><span>热度 6.7 万</span><span>11-22 上线</span></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 3 更新动态 -->
+    <section class="section" id="updates">
+      <div class="sec-head">
+        <h2><span class="sec-no">03</span>最新更新与上线动态</h2>
+        <span class="sec-desc">2026 年 11 月 20 日—11 月 25 日</span>
+      </div>
+      <div class="update-list">
+        <div class="update-item"><span class="up-time">今天 09:30</span><span class="up-dot"></span><div class="up-main"><b>格鲁少年篇 第 2 季第 6 集</b><span>已上线，本集引入新的邻里对手，格鲁第一次公开承认自己想当反派。</span></div></div>
+        <div class="update-item"><span class="up-time">今天 08:10</span><span class="up-dot"></span><div class="up-main"><b>小小兵：月球任务</b><span>中配音轨补齐，原先只有英配的条目现在双版本可选。</span></div></div>
+        <div class="update-item"><span class="up-time">昨天 21:40</span><span class="up-dot"></span><div class="up-main"><b>月亮饼干争夺番外篇</b><span>上线并附彩蛋解析图，标注了七处前作物件出处。</span></div></div>
+        <div class="update-item"><span class="up-time">昨天 18:05</span><span class="up-dot"></span><div class="up-main"><b>节日特辑合集</b><span>新增两支万圣节短片条目，补齐节日线共 8 支。</span></div></div>
+        <div class="update-item"><span class="up-time">11 月 23 日</span><span class="up-dot"></span><div class="up-main"><b>冰淇淋摊短片</b><span>字幕校对完成，修正了 3 处拟声词翻译。</span></div></div>
+        <div class="update-item"><span class="up-time">11 月 22 日</span><span class="up-dot"></span><div class="up-main"><b>宠物争夺战短片</b><span>新增适龄标注（建议 4 岁以上），并调整了分类归属。</span></div></div>
+        <div class="update-item"><span class="up-time">11 月 21 日</span><span class="up-dot"></span><div class="up-main"><b>配音幕后访谈</b><span>补充中文字幕轨，原为纯英配带时间轴。</span></div></div>
+        <div class="update-item"><span class="up-time">11 月 20 日</span><span class="up-dot"></span><div class="up-main"><b>小小兵圣诞装饰事故</b><span>中配版上线，节日特辑首次实现全线中配。</span></div></div>
+        <div class="update-item"><span class="up-time">11 月 18 日</span><span class="up-dot"></span><div class="up-main"><b>格鲁的崛起（前传长片）</b><span>条目页补充了与少年篇剧集的时间线对照说明。</span></div></div>
+        <div class="update-item"><span class="up-time">11 月 16 日</span><span class="up-dot"></span><div class="up-main"><b>社区热度榜</b><span>本月榜单更新，月球任务升至第 1 位，冰淇淋摊跌至第 4。</span></div></div>
+      </div>
+    </section>
+
+    <!-- 4 分类入口 -->
+    <section class="section" id="cats">
+      <div class="sec-head">
+        <h2><span class="sec-no">04</span>按类型与需求挑条目</h2>
+        <span class="sec-desc">8 个分类，对应常见搜索词</span>
+      </div>
+      <div class="cat-grid">
+        <a class="cat" href="#picks"><b>独立短片</b><span>5—15 分钟一支，无需前情，碎片时间首选</span><span class="cat-n">12 条</span></a>
+        <a class="cat" href="#picks"><b>剧场版长片</b><span>80—95 分钟，需了解格鲁与三个女儿的关系</span><span class="cat-n">7 部</span></a>
+        <a class="cat" href="#picks"><b>格鲁少年篇</b><span>衍生剧集，按季按集顺序推进的反派起源线</span><span class="cat-n">18 集</span></a>
+        <a class="cat" href="#deep"><b>中配与英配对照</b><span>同一部片两个语言版本的差异与适配人群</span><span class="cat-n">6 组</span></a>
+        <a class="cat" href="#deep"><b>时间线顺序</b><span>按故事发生先后而非上映先后排列</span><span class="cat-n">1 表</span></a>
+        <a class="cat" href="#guide"><b>亲子适龄筛选</b><span>按 4 岁、6 岁、9 岁三档标注适宜度</span><span class="cat-n">24 条</span></a>
+        <a class="cat" href="#news"><b>幕后与配音访谈</b><span>声音设计、配乐特辑、导演访谈类内容</span><span class="cat-n">11 条</span></a>
+        <a class="cat" href="#picks"><b>节日特辑</b><span>圣诞、万圣节等节日主题短片合集</span><span class="cat-n">8 支</span></a>
+      </div>
+    </section>
+
+    <!-- 5 深度解析 -->
+    <section class="section" id="deep">
+      <div class="sec-head">
+        <h2><span class="sec-no">05</span>深度解析：短片、长片与剧集到底怎么区分</h2>
+        <span class="sec-desc">从叙事任务、时长与观看门槛三个维度拆</span>
+      </div>
+      <article class="article">
+        <h3>三类内容承担的叙事任务完全不同</h3>
+        <p>把系列内容放在一起看，最容易犯的错误是用同一套标准评价所有条目。剧场版长片的任务是完成一次完整的冒险：有明确的反派、有目标物、有情感转折，95 分钟内必须收束。独立短片的任务只有一个——把笑点做透，所以它允许不解释人物从哪来、到哪去。衍生剧集则介于两者之间，它需要维持一条跨集的主线，同时保证单集也能独立成立。理解这三套任务，就能解释为什么“短片评分高但看久了会腻”“长片节奏慢但不能跳着看”这类观感差异。</p>
+        <p>以《小小兵：月球任务》为例，8 分钟的容量里没有人物介绍、没有背景交代，开场三秒直接进入冲突。这种处理在短片中成立，但若把同样的密度拉长到 90 分钟，观众会迅速疲劳。反过来，《神偷奶爸》首部剧场版用了将近二十分钟建立格鲁的人物动机，这段铺垫在短片里是不可能出现的，也正是长片不可替代的部分。</p>
+
+        <h3>时长与观看门槛的对应关系</h3>
+        <p>时长不只是数字，它直接决定了“能不能中途停下”和“需不需要提前做功课”。下表把三类内容的关键差异并列出来，挑选时可以先对照自己的场景。</p>
+        <div class="compare">
+          <div>
+            <h4>独立短片（5—15 分钟）</h4>
+            <ul>
+              <li>无需任何前情，可直接进入</li>
+              <li>中途打断不影响理解</li>
+              <li>笑点密度最高，情感线最弱</li>
+              <li>适合通勤、睡前、碎片时段</li>
+              <li>代表条目：月球任务、冰淇淋摊、宠物争夺战</li>
+            </ul>
+          </div>
+          <div>
+            <h4>剧场版与剧集（22—95 分钟）</h4>
+            <ul>
+              <li>需了解格鲁的基本处境</li>
+              <li>剧集需按顺序，跳集会丢动机</li>
+              <li>有完整情感弧线，适合整段观看</li>
+              <li>适合周末、家庭共同观看</li>
+              <li>代表条目：格鲁的崛起、少年篇第 2 季</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>中配与英配的判断依据</h3>
+        <p>配音版本的选择本质上是“谁在看”和“看什么”两个问题的叠加。低龄观众或需要一边做别的事一边听的情况，中配明显更合适，因为不必分心读字幕。但如果内容本身高度依赖语言游戏——比如配音幕后访谈里讨论的发音设计——英配几乎是必须的，中配会把这类细节抹平。</p>
+        <ul>
+          <li><b>看画面为主、对白稀少：</b>两种版本差别极小，如冰淇淋摊、宠物争夺战，选哪个都行。</li>
+          <li><b>依赖双关与谐音：</b>英配保留原意，中配会换成中文谐音梗，笑点位置大致对应但内容不同。</li>
+          <li><b>孩子独自观看：</b>优先中配，避免因读字幕错过画面。</li>
+          <li><b>想了解创作过程：</b>看幕后访谈时选原声加字幕，能听到配音演员的原始示范。</li>
+        </ul>
+
+        <h3>时间线顺序与上映顺序的差别</h3>
+        <p>系列的一大特点是“上映顺序”和“故事顺序”并不一致。格鲁的崛起作为前传，故事发生在首部剧场版之前很多年；少年篇剧集又进一步细化了这段时期。如果按故事顺序看，观感会更连贯，但会牺牲一部分“先认识成年格鲁再回头看他少年时代”的反差趣味。</p>
+        <div class="callout">建议的折中方案：先用一支独立短片（如月球任务）确认自己是否吃得下这种喜剧节奏，再按上映顺序看首部剧场版建立人物印象，最后回到格鲁的崛起与少年篇补全前史。这样既不会一上来被长片门槛劝退，也不会因为先看前传而失去悬念。</div>
+
+        <h3>判断一支短片值不值得花时间的三个信号</h3>
+        <p>面对十几支短片，逐一看完成本不低。可以从三个信号快速筛选：第一，看它是否有一个清晰的“单一目标物”，比如一块饼干、一只小狗、一棵圣诞树，有明确目标物的短片通常结构最紧；第二，看它是否依赖前作彩蛋，彩蛋密集的条目对熟悉系列的观众加分，对新人则是噪音；第三，看它有没有超出常规的场景设计，比如月球表面、发射台，场景越反常，视觉笑点的空间越大。按这三条筛，十二支短片里大约能锁定五六支高确定性的。</p>
+      </article>
+    </section>
+
+    <!-- 6 观看路径 -->
+    <section class="section" id="guide">
+      <div class="sec-head">
+        <h2><span class="sec-no">06</span>观看路径：从哪一支开始最省力</h2>
+        <span class="sec-desc">按投入时间由轻到重排列</span>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <b>第一步：用一支无对白短片试探节奏</b>
+          <p>从《小小兵与冰淇淋摊》或《宠物争夺战》开始，5—6 分钟，不需要字幕也不需要前情。如果这类夸张肢体喜剧让你觉得舒服，再往长片走；如果觉得吵，说明系列风格本身不合口味，不必勉强。</p>
+        </div>
+        <div class="step">
+          <b>第二步：看首部剧场版建立人物关系</b>
+          <p>《神偷奶爸》首部剧场版是理解格鲁与三个女儿关系的最短路径。看完这部，后续所有长片里涉及家庭线的段落才不会显得莫名其妙。建议选一个完整时段，不要分段看。</p>
+        </div>
+        <div class="step">
+          <b>第三步：补前传长片，理解动机来源</b>
+          <p>《格鲁的崛起》解释了格鲁为什么执着于反派身份。放在首部之后看，会有“原来他小时候是这样”的对照感；放在之前看，则会削弱成年格鲁出场时的反差。</p>
+        </div>
+        <div class="step">
+          <b>第四步：按季进入少年篇剧集</b>
+          <p>剧集需要按顺序，第 2 季第 6 集有一次明确的立场转折，跳集会丢失动机。建议一次看两到三集，单集 22 分钟的节奏不适合连刷整季。</p>
+        </div>
+        <div class="step">
+          <b>第五步：用节日特辑与番外收尾</b>
+          <p>节日特辑和番外篇适合作为收尾，彩蛋密集，熟悉系列后观看收益最大。此时你已经能认出大部分前作物件，笑点会翻倍。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 FAQ -->
+    <section class="section" id="faq">
+      <div class="sec-head">
+        <h2><span class="sec-no">07</span>常见问题</h2>
+        <span class="sec-desc">6 个高频疑问</span>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>小小兵短片一般多久更新一支？</summary>
+          <div class="faq-body"><p>没有固定周期。从近两年的记录看，通常集中在剧场版上映前后与节日档期，单月可能出现两三支，也可能连续两个月没有新条目。2026 年 11 月这一轮属于节日档叠加新片宣传期，共更新了 4 支，属于偏多的月份。</p></div>
+        </details>
+        <details>
+          <summary>中配版和英配版的笑点差别大吗？</summary>
+          <div class="faq-body"><p>差别集中在依赖语言的桥段。无对白短片（冰淇淋摊、宠物争夺战）几乎无差别；对白较多的条目，中配会把英文双关替换成中文谐音梗，笑点位置对应但内容不同。如果你在意原版语气节奏，选英配加字幕更稳妥。</p></div>
+        </details>
+        <details>
+          <summary>第一次接触这个系列，从哪一支开始看比较好？</summary>
+          <div class="faq-body"><p>推荐先看一支无对白短片确认风格接受度，再进入首部剧场版。直接看长片的风险是一上来就面对大量人物关系，容易分神；直接看剧集则可能因缺少成年格鲁的印象而觉得平淡。</p></div>
+        </details>
+        <details>
+          <summary>格鲁的崛起和少年篇剧集是什么关系？</summary>
+          <div class="faq-body"><p>两者讲的是同一段少年时期，但容量和侧重点不同。前传长片用 87 分钟讲一个大事件，剧集用 22 分钟一集的方式补足邻里关系、日常试错等细节。先看长片再看剧集，会更容易接受剧集较慢的节奏。</p></div>
+        </details>
+        <details>
+          <summary>短片适合几岁的孩子看？</summary>
+          <div class="faq-body"><p>无对白短片整体温和，4 岁以上基本可看，但个别条目有追逐、摔倒等夸张动作，对声音敏感的孩子可能被音效吓到。建议先陪看一支，确认孩子对拟声词和快节奏剪辑的反应，再决定是否放开。</p></div>
+        </details>
+        <details>
+          <summary>剧场版和剧集可以跳着看吗？</summary>
+          <div class="faq-body"><p>剧场版之间关联较弱，跳看问题不大，但首部剧场版建议不要跳，它是人物关系的起点。剧集则不建议跳，第 2 季第 6 集有明确立场转折，跳过会看不懂后续几集的行为动机。</p></div>
+        </details>
+      </div>
+    </section>
+
+    <!-- 8 用户评论 -->
+    <section class="section" id="comments">
+      <div class="sec-head">
+        <h2><span class="sec-no">08</span>社区评论</h2>
+        <span class="sec-desc">近 7 天内 16 条</span>
+      </div>
+      <div class="cmt-grid">
+        <div class="cmt"><div class="cmt-head"><span class="avatar">柠</span><b>柠檬气泡水</b><time>11-25 10:12</time></div><p>月球任务补了中配之后又看了一遍，说实话肢体笑点反而更突出了，不用分心读字幕。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v2">阿</span><b>阿柴不拆家</b><time>11-25 09:40</time></div><p>少年篇第 6 集那个转折来得有点突然，前面五集铺垫的邻里矛盾我以为还要再拖两集。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v3">麦</span><b>麦田里的猫</b><time>11-24 22:31</time></div><p>冰淇淋摊是我给孩子放的第一支，全程没台词，她看得比有对白的还投入。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v4">老</span><b>老陈看片</b><time>11-24 20:05</time></div><p>首部剧场版现在看画面确实旧了，但情感线还是最扎实的一部，后面的长片都在复制它的结构。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v5">青</span><b>青柠薄荷</b><time>11-24 16:48</time></div><p>配音访谈比想象中有料，原来那种含糊发音是分三层音轨叠出来的，一直以为是演员即兴。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar">木</span><b>木木夕</b><time>11-23 23:20</time></div><p>宠物争夺战太短了，5 分钟刚进入状态就结束，作为下饭片有点不够。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v2">南</span><b>南瓜马车</b><time>11-23 19:02</time></div><p>按这个页面给的时间线顺序看的，先短片再前传再剧集，确实比我自己乱点顺畅很多。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v3">半</span><b>半糖去冰</b><time>11-23 14:37</time></div><p>节日特辑那两支万圣节的，音效有点吓人，五岁以下还是别单独看。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v4">海</span><b>海盐苏打</b><time>11-22 21:15</time></div><p>番外篇的彩蛋我数出来六处，第七处实在没找到，有人知道在哪吗。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v5">小</span><b>小满不吃香菜</b><time>11-22 17:44</time></div><p>中配的双关梗其实挺用心的，虽然跟原版不一样，但对小孩来说更好理解。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar">柚</span><b>柚子茶</b><time>11-22 11:26</time></div><p>格鲁的崛起放前面看确实会少点惊喜，我是先看前传的，后来看首部剧场版反而觉得他出场有点平淡。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v2">大</span><b>大雾四起</b><time>11-21 22:08</time></div><p>少年篇单集 22 分钟连刷三集就有点累，节奏比长片慢，适合一天两集。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v3">橘</span><b>橘色黄昏</b><time>11-21 18:50</time></div><p>圣诞装饰事故那支其实不挑节日看，我十一月看的，笑点完全成立。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v4">石</span><b>石榴气泡</b><time>11-20 20:33</time></div><p>希望后面能把早期那几支短片的中配也补上，现在版本不统一，切换着看有点出戏。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar v5">云</span><b>云朵收集者</b><time>11-20 15:11</time></div><p>热度榜第一是月球任务我不意外，那支的节奏确实是十二支里最紧的。</p></div>
+        <div class="cmt"><div class="cmt-head"><span class="avatar">七</span><b>七号选手</b><time>11-19 21:47</time></div><p>整体质量稳定，但同质化也明显，看多了会发现笑点结构重复，建议中间穿插点别的类型。</p></div>
+      </div>
+    </section>
+
+    <!-- 9 相关资讯 -->
+    <section class="section" id="news">
+      <div class="sec-head">
+        <h2><span class="sec-no">09</span>相关资讯</h2>
+        <span class="sec-desc">近 30 天社区与制作动态</span>
+      </div>
+      <div class="news-list">
+        <article class="news">
+          <img src="https://picsum.photos/seed/news-moonvoice41/600/400" width="600" height="400" loading="lazy" alt="月球任务中配上线资讯配图，录音棚麦克风">
+          <div>
+            <h3>《小小兵：月球任务》中配音轨上线，短片线首次实现双语可选</h3>
+            <p>本次补录保留了原版的音效节奏，仅替换对白层，是近期版本统一工作中最关键的一条。</p>
+            <time>2026-11-24</time>
+          </div>
+        </article>
+        <article class="news">
+          <img src="https://picsum.photos/seed/news-gruseason27/600/400" width="600" height="400" loading="lazy" alt="格鲁少年篇第 2 季资讯配图，少年格鲁站在街角">
+          <div>
+            <h3>格鲁少年篇第 2 季进入后半程，第 6 集完成立场转折</h3>
+            <p>制作方在访谈中提到，后半季会把重心从邻里竞争转向格鲁与家人的关系，节奏会比前半季更紧。</p>
+            <time>2026-11-25</time>
+          </div>
+        </article>
+        <article class="news">
+          <img src="https://picsum.photos/seed/news-festival18/600/400" width="600" height="400" loading="lazy" alt="节日特辑合集资讯配图，圣诞装饰与彩灯">
+          <div>
+            <h3>节日特辑补齐至 8 支，万圣节两支新条目归类调整</h3>
+            <p>原先混在独立短片里的两支节日题材被单独归类，便于按节日检索。</p>
+            <time>2026-11-22</time>
+          </div>
+        </article>
+        <article class="news">
+          <img src="https://picsum.photos/seed/news-voicebg33/600/400" width="600" height="400" loading="lazy" alt="配音幕后访谈资讯配图，配音演员在录音间">
+          <div>
+            <h3>配音幕后访谈补充中文字幕，声音设计流程首次完整公开</h3>
+            <p>访谈里演示了三层音轨叠加的具体做法，是理解小小兵发音方式最直接的一份材料。</p>
+            <time>2026-11-21</time>
+          </div>
+        </article>
+        <article class="news">
+          <img src="https://picsum.photos/seed/news-community56/600/400" width="600" height="400" loading="lazy" alt="社区讨论热度资讯配图，讨论界面与排行榜">
+          <div>
+            <h3>社区讨论焦点转向“短片同质化”，热度榜前四名出现变动</h3>
+            <p>近一周讨论里，关于笑点结构重复的意见明显增多，月球任务升至榜首，冰淇淋摊跌至第四。</p>
+            <time>2026-11-18</time>
+          </div>
+        </article>
+        <article class="news">
+          <img src="https://picsum.photos/seed/news-timeline62/600/400" width="600" height="400" loading="lazy" alt="时间线对照资讯配图，时间轴与条目卡片">
+          <div>
+            <h3>前传长片条目页补充时间线对照，故事顺序与上映顺序并列展示</h3>
+            <p>新增的对照表把七部长片与两季剧集按故事发生时间重排，方便按剧情推进顺序观看。</p>
+            <time>2026-11-16</time>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 10 相关推荐 -->
+    <section class="section" id="reco">
+      <div class="sec-head">
+        <h2><span class="sec-no">10</span>相关推荐：延伸方向</h2>
+        <span class="sec-desc">与热门条目区分，侧重延伸兴趣</span>
+      </div>
+      <div class="reco-wrap">
+        <a class="reco" href="#deep"><i>方向</i>无对白喜剧短片</a>
+        <a class="reco" href="#deep"><i>方向</i>反派起源叙事</a>
+        <a class="reco" href="#news"><i>方向</i>动画声音设计</a>
+        <a class="reco" href="#guide"><i>方向</i>亲子共看片单</a>
+        <a class="reco" href="#picks"><i>条目</i>月亮饼干争夺番外篇</a>
+        <a class="reco" href="#picks"><i>条目</i>小小兵圣诞装饰事故</a>
+        <a class="reco" href="#deep"><i>方向</i>上映顺序与故事顺序对照</a>
+        <a class="reco" href="#comments"><i>方向</i>社区口碑与争议条目</a>
+      </div>
+    </section>
+
+    <!-- 11 热门榜单 -->
+    <section class="section" id="rank">
+      <div class="sec-head">
+        <h2><span class="sec-no">11</span>社区热度榜（11 月）</h2>
+        <span class="sec-desc">按近 30 天讨论量与完播率综合排序</span>
+      </div>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-no">1</span><b>小小兵：月球任务</b><span class="rk-meta"><em>9.1</em>完播 86%</span></div>
+        <div class="rank-row"><span class="rank-no">2</span><b>格鲁少年篇 第 2 季</b><span class="rk-meta"><em>8.7</em>追更 4.2 万</span></div>
+        <div class="rank-row"><span class="rank-no">3</span><b>神偷奶爸（首部剧场版）</b><span class="rk-meta"><em>9.0</em>回看率 31%</span></div>
+        <div class="rank-row"><span class="rank-no">4</span><b>小小兵与冰淇淋摊</b><span class="rk-meta"><em>8.9</em>完播 92%</span></div>
+        <div class="rank-row"><span class="rank-no">5</span><b>格鲁的崛起</b><span class="rk-meta"><em>8.6</em>回看率 27%</span></div>
+        <div class="rank-row"><span class="rank-no">6</span><b>小小兵与宠物争夺战</b><span class="rk-meta"><em>8.8</em>完播 90%</span></div>
+        <div class="rank-row"><span class="rank-no">7</span><b>月亮饼干争夺番外篇</b><span class="rk-meta"><em>8.5</em>彩蛋讨论 1.1 万</span></div>
+        <div class="rank-row"><span class="rank-no">8</span><b>小小兵圣诞装饰事故</b><span class="rk-meta"><em>8.4</em>收藏 2.6 万</span></div>
+        <div class="rank-row"><span class="rank-no">9</span><b>配音棚里的小小兵：幕后访谈</b><span class="rk-meta"><em>8.2</em>收藏 1.8 万</span></div>
+        <div class="rank-row"><span class="rank-no">10</span><b>节日特辑合集（8 支）</b><span class="rk-meta"><em>8.3</em>收藏 1.4 万</span></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 右辅助栏 -->
+  <aside class="col-right">
+    <div class="panel side-card">
+      <p class="side-title">本周热榜</p>
+      <ul class="hot-list">
+        <li><a href="#picks"><span class="hn">1</span>小小兵：月球任务</a></li>
+        <li><a href="#picks"><span class="hn">2</span>格鲁少年篇 第 2 季第 6 集</a></li>
+        <li><a href="#picks"><span class="hn">3</span>神偷奶爸（首部剧场版）</a></li>
+        <li><a href="#picks"><span class="hn">4</span>小小兵与冰淇淋摊</a></li>
+        <li><a href="#picks"><span class="hn">5</span>月亮饼干争夺番外篇</a></li>
+        <li><a href="#picks"><span class="hn">6</span>小小兵与宠物争夺战</a></li>
+      </ul>
+    </div>
+    <div class="panel side-card">
+      <p class="side-title">更新节点</p>
+      <ul class="timeline">
+        <li><b>月球任务中配补齐</b><time>11-25 08:10</time></li>
+        <li><b>少年篇第 6 集上线</b><time>11-25 09:30</time></li>
+        <li><b>番外篇彩蛋解析图</b><time>11-24 21:40</time></li>
+        <li><b>万圣节两支短片入库</b><time>11-24 18:05</time></li>
+        <li><b>节日特辑全线中配</b><time>11-20 17:20</time></li>
+        <li><b>时间线对照表发布</b><time>11-16 11:00</time></li>
+      </ul>
+    </div>
+    <div class="panel side-card">
+      <p class="side-title">适龄提示</p>
+      <div style="padding:2px 16px 8px;font-size:12.5px;color:var(--ink-soft);line-height:1.75">
+        无对白短片：4 岁以上可看；节日特辑中两支万圣节题材含突然音效，建议 6 岁以上或家长陪同；少年篇剧集涉及反派行为模仿，建议 9 岁以上。
+      </div>
+    </div>
+  </aside>
+
+</div>
+
+<!-- 页尾 -->
+<footer class="site-foot">
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">
+          <svg width="34" height="34" viewBox="0 0 40 40" role="img" aria-label="小黄人品牌标志：黄色胶囊造型护目镜图形">
+            <rect x="6" y="3" width="28" height="34" rx="14" fill="#ffd400" stroke="#0e131b" stroke-width="2"/>
+            <circle cx="20" cy="17" r="8.4" fill="#fff" stroke="#0e131b" stroke-width="2"/>
+            <circle cx="20" cy="17" r="4.2" fill="#3d4757"/>
+            <circle cx="21.6" cy="15.4" r="1.4" fill="#fff"/>
+            <path d="M12 28.5c2.6 2.2 13.4 2.2 16 0" stroke="#0e131b" stroke-width="2" fill="none" stroke-linecap="round"/>
+          </svg>
+          <b>小黄人b站免费入口在线看网页版</b>
+        </div>
+        <p class="foot-desc">一个围绕小黄人系列长片、独立短片与衍生剧集的中文条目索引，按类型、时长、语言版本与适龄程度整理，帮助观众按顺序挑选合适的内容。</p>
+      </div>
+      <div class="foot-col">
+        <h4>内容频道</h4>
+        <ul>
+          <li><a href="#picks">剧场版长片</a></li>
+          <li><a href="#picks">独立短片合集</a></li>
+          <li><a href="#picks">格鲁少年篇剧集</a></li>
+          <li><a href="#picks">节日特辑</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>观看参考</h4>
+        <ul>
+          <li><a href="#guide">观看顺序建议</a></li>
+          <li><a href="#deep">中配与英配对照</a></li>
+          <li><a href="#deep">时间线对照表</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>社区</h4>
+        <ul>
+          <li><a href="#comments">用户评论</a></li>
+          <li><a href="#rank">热度榜</a></li>
+          <li><a href="#news">相关资讯</a></li>
+          <li><a href="#reco">延伸推荐</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span><b>内容说明：</b>条目名称、评分与热度为社区整理示例，语言版本与更新日期以实际条目为准。</span>
+      <span><b>版权：</b>相关作品与角色版权归原权利方所有，本页仅作索引与评论整理。</span>
+      <span>© 2026 小黄人系列条目索引</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var input = document.getElementById('q');
+  var btn = document.getElementById('searchBtn');
+  var grid = document.getElementById('pickGrid');
+  var noResult = document.getElementById('noResult');
+  if(!input || !grid) return;
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+
+  function doSearch(){
+    var kw = (input.value || '').trim().toLowerCase();
+    if(!kw){
+      cards.forEach(function(c){ c.style.display = ''; });
+      noResult.classList.remove('show');
+      return;
+    }
+    var hit = 0;
+    cards.forEach(function(card){
+      var text = (card.getAttribute('data-keys') || '') + ' ' + card.textContent;
+      var ok = text.toLowerCase().indexOf(kw) !== -1;
+      card.style.display = ok ? '' : 'none';
+      if(ok) hit++;
+    });
+    if(hit === 0){ noResult.classList.add('show'); }
+    else { noResult.classList.remove('show'); }
+    var picks = document.getElementById('picks');
+    if(picks && hit > 0){ picks.scrollIntoView({behavior:'smooth', block:'start'}); }
+  }
+
+  btn.addEventListener('click', doSearch);
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); doSearch(); }
+  });
+  input.addEventListener('input', function(){
+    if(input.value.trim() === ''){
+      cards.forEach(function(c){ c.style.display = ''; });
+      noResult.classList.remove('show');
+    }
+  });
+})();
+</script>
+</body>
+          </html>
